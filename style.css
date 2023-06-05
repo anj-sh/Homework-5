@@ -3,7 +3,89 @@ h2{
     font-size: 2em;
   }
   
-  .red{
+
+  .palevioletred{
     color: palevioletred;
     font-size: 2em;
   }
+
+
+  .orange{
+    color: orange;
+    font-size: 2em;
+  }
+
+
+  #hello{
+    color: rebeccapurple;
+    font-size: 2em;
+  }
+
+
+  span {
+    color: rgb(49, 73, 253); 
+   }
+
+
+   a[target] {
+    background-color: plum;
+  }
+
+
+  .head.of.fifth.point{
+    color: green;
+  }
+
+
+  .text.greenyellow{
+    background-color: greenyellow;
+  }
+
+
+  .text.yellow{
+    background-color: yellow;
+  }
+
+
+  *{
+    margin: 2;
+    padding: 1;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #000; */
+  }
+
+
+  h2 em{
+    font-family: Times, serif;
+    color: purple;
+  }
+
+
+  p>i{
+    color: red;
+  }
+
+
+  b+i{
+    color: aqua;
+  }
+
+
+  #headten ~ p{
+    color: brown;
+  }
+
+
+  h2#hello{
+    color: brown;
+    font-size: 2em;
+  }
+
+  
+  h2.orange{
+    color: orange;
+    font-size: 2em;
+  }
+
